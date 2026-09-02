@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/31739595/README.md)
 # Mapp — Android beta
 
 Mapp is a personal mobile health record. It runs **entirely offline**: no
@@ -39,10 +38,14 @@ shasum -a 256 -c Mapp-<version>-SHA256SUMS.txt
 1. Mapp asks the phone's owner to register: name, gender, date of birth,
    address, an identifier such as a national ID, insurance details, and a
    calendar color.
-2. You choose an **app password**. It protects every health record on the
-   phone and **cannot be recovered if forgotten** — choose one you will
-   remember.
-3. Family members can be added afterwards from the Home screen.
+2. You choose an **app password**. It unlocks the app every time and
+   protects every record on the phone. It cannot be reset — choose one you
+   will remember.
+3. You also choose a **recovery key**. This is a separate family secret, and
+   it is the only way your records can be restored onto a new phone if this
+   one is lost, broken or wiped. Your clinician needs it to do that restore.
+   Write it down and keep it somewhere other than the phone.
+4. Family members can be added afterwards from the Home screen.
 
 Every later start asks for that password, or a fingerprint / face unlock once
 the phone offers it.
