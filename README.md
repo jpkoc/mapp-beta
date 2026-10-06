@@ -50,6 +50,15 @@ shasum -a 256 -c Mapp-<version>-SHA256SUMS.txt
 Every later start asks for that password, or a fingerprint / face unlock once
 the phone offers it.
 
+## Being told about new versions
+
+New releases are announced on the **mHealth-Africa** channel on WhatsApp:
+
+<https://whatsapp.com/channel/0029VbEKtorEVccSIbVooe0L>
+
+Follow it and you get a message whenever a new Dapp or Mapp is out. It is
+one-way — you cannot reply there, and no one sees who else follows it.
+
 ## Notes
 
 - These are **beta** builds. Expect rough edges, and report anything odd to
